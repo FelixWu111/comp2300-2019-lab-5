@@ -2,22 +2,6 @@
 @ --------------------- Module Interface --------------------
 @ bit fiddling utility functions
 
-@ don't let the short names of these functions confuse you - they do more than
-@ just set a bit in a register
-
-@ they're helpers for the load-twiddle-store pattern (first discussed in lab 5),
-@ so they're particularly useful for working with memory-mapped registers (e.g.
-@ peripheral config registers)
-
-@ each of these functions:
-@
-@ 1. reads a word from memory into a register
-@
-@ 2. sets/clears/toggles/writes/reads/copies one or more bits in that register,
-@    leaving the other bits alone
-@
-@ 3. writes the new value back to the same memory location
-
 @ Function exports:
 .global set_bit, clear_bit, toggle_bit, write_bit, read_bit, copy_bits
 
