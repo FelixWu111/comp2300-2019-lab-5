@@ -4,5 +4,5 @@
 .type main, %function
 main:
   nop
-  bx lr
+  b main
 .size main, .-main
