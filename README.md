@@ -1,5 +1,3 @@
-# COMP2300 Bare Metal Template Harness
+# COMP2300 lab 5/6 template repo
 
-Based on the last lab from last year.
-This repository contains all the code and libs for writing bare-metal asm programs.
-Each branch should contain code necessary for each lab.
+<https://cs.anu.edu.au/courses/comp2300/labs/05-blinky/>
